@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "chapo": {
+      "type": "text"
+    },
+    "urlImage": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "services",
+        "ordinateurs",
+        "mobility ",
+        "media",
+        "logiciels",
+        "data",
+        "cloud",
+        "workspace",
+        "education",
+        "accessoires",
+        "impression",
+        "composants"
+      ]
+    }
+  }
+}
